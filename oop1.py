@@ -67,6 +67,7 @@ dev_2 = Developers('Test', 'User', 60000, 'java')
 print(dev_1.prog)
 
 mgr_1 = Manager('Sue','Forrest', 90000, [dev_1])
+mgr_2 = Manager('Simba', 'Lion', 100000, [dev_2])
 print(mgr_1.email)
 mgr_1.print_emp()
 mgr_1.add_emp(dev_2)
