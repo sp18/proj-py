@@ -1,7 +1,8 @@
 #/usr/bin/python
 
-#class Employee(object): # this is required form 
-class Employee:	
+# Python3.0 oops test 
+#class Employee(object): # syntax in 2.x versions 
+class Employee:	# Syntax for 3.x versions
 	raise_amount = 1.04
 	num_of_emps = 0
 
